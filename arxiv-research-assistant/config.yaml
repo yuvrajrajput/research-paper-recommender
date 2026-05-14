@@ -1,0 +1,15 @@
+discord_webhook: "https://discord.com/api/webhooks/PUT_YOUR_WEBHOOK_HERE"
+discord_username: "OpenClawBot"
+arxiv_query: "all:machine learning"
+categories:
+  - cs.AI
+  - cs.LG
+max_results: 15
+poll_interval_minutes: 30
+k_clusters: 5
+recommendation_count: 3
+interest_keywords:
+  - reinforcement learning
+  - neural architecture search
+  - graph neural networks
+state_file: "seen_papers.json"
